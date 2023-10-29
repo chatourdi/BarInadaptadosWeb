@@ -1,7 +1,13 @@
+import React from 'react';
+import BotonIcono from '../BotonIcono';
+
 const Header = () => {
     return (
         <header>
-            <h1>Header</h1>
+
+            <BotonIcono/>
+            <h1>Inadaptados Bar</h1>
+            
         </header>
     );
 };

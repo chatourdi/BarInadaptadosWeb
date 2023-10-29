@@ -1,12 +1,20 @@
-import Header from './Components/Header'
+import React from 'react';
+import Header from './components/Header'
+import Button from './components/Button';
 import './App.css';
 
 const App = () => {
+  const handleClick = () => {
+    console.log('Button was clicked!');
+  };
+
 
   return (
     <div>
-      <Header />
-      <h1>Holaaaaa</h1>
+     <Button onClick= {() => console.log('Button was clicked!')} style={{ backgroundColor: 'blue', color: 'white' }}> algo prueba </Button>
+
+      <Header/>
+      <BotonIcono/>
     </div>
   );
 };
